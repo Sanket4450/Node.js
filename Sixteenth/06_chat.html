@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./06_chat.css">
+</head>
+
+<body>
+    <h3 id="error-message"></h3>
+
+    <input type="text" id="username" placeholder="Username" autocomplete="off" required>
+    <button id="let-me-chat" onclick="letMeChat(document.getElementById('username').value)">Let me chat!</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+
+        const socket = io()
+
+        function letMeChat(username) {
+            socket.emit('checkUsername', { username })
+        }
+        let user
+
+        socket.on('usernameTaken', (msg) => {
+            document.getElementById('error-message').innerHTML = msg
+        })
+
+        socket.on('usernameVerified', (data) => {
+            user = data.user
+            document.body.innerHTML = '<input type="text" id="message" placeholder="Message">\
+         <button id="send" name="button" onclick="sendMessage()">Send</button>\
+         <div id="message-container"></div>';
+        })
+
+        function sendMessage() {
+            const message = document.getElementById('message').value
+            socket.emit('send', { message, user })
+        }
+
+        socket.on('message', (data) => {
+            document.getElementById('message-container').innerHTML += '<div><b>' + data.user + ': </b>' + data.message
+        })
+
+    </script>
+</body>
+
+</html>

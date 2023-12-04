@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Socket.IO 5</title>
+</head>
+
+<body>
+
+    <h2 id="msg1"></h2>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io()
+
+        socket.on('connectToRoom', (data) => myDisplayer(data))
+
+        function myDisplayer(data) {
+            document.getElementById('msg1').innerHTML = data
+        }
+    </script>
+
+</body>
+
+</html>

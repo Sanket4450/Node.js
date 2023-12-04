@@ -1,0 +1,34 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "all downloaded packages are for learning purposes",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Sanket Talaviya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.2",
+    "express-session": "^1.17.3",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5",
+    "socket.io": "^4.7.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "express-flash": "^0.0.2",
+    "morgan": "^1.10.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "keywords": []
+}

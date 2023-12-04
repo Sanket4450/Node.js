@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "firstName": "Elon",
+        "lastName": "Musk",
+        "age": 52,
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "firstName": "Bernard",
+        "lastName": "Arnault",
+        "age": 74,
+        "country": "France"
+    },
+    {
+        "id": 3,
+        "firstName": "Jeff",
+        "lastName": "Bezos",
+        "age": 59,
+        "country": "USA"
+    },
+    {
+        "id": 4,
+        "firstName": "Larry",
+        "lastName": "Ellison",
+        "age": 79,
+        "country": "USA"
+    },
+    {
+        "id": 5,
+        "firstName": "Warren",
+        "lastName": "Buffett",
+        "age": 93,
+        "country": "USA"
+    },
+    {
+        "id": 6,
+        "firstName": "Bill",
+        "lastName": "Gates",
+        "age": 67,
+        "country": "USA"
+    },
+    {
+        "id": 7,
+        "firstName": "Larry",
+        "lastName": "Page",
+        "age": 50,
+        "country": "USA"
+    },
+    {
+        "id": 8,
+        "firstName": "Sergey",
+        "lastName": "Brin",
+        "age": 50,
+        "country": "USA"
+    },
+    {
+        "id": 9,
+        "firstName": "Mark",
+        "lastName": "Zuckerberg",
+        "age": 39,
+        "country": "USA"
+    },
+    {
+        "id": 10,
+        "firstName": "Steve",
+        "lastName": "Ballmer",
+        "age": 67,
+        "country": "USA"
+    }
+]

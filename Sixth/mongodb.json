@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "mobile",
+        "brand": [
+            "Apple",
+            "Samsung",
+            "OnePlus",
+            "Oppo",
+            "Vivo",
+            "Xiaomi"
+        ],
+        "quantity": 2500
+    },
+    {
+        "id": 2,
+        "name": "laptop",
+        "brand": [
+            "Apple",
+            "HP",
+            "Dell",
+            "Asus"
+        ],
+        "quantity": 1200
+    },
+    {
+        "id": 3,
+        "name": "tablet",
+        "brand": [
+            "Apple",
+            "Lenovo",
+            "Samsung",
+            "Oppo"
+        ],
+        "quantity": 1500
+    },
+    {
+        "id": 4,
+        "name": "watch",
+        "brand": [
+            "Titan",
+            "Sonata",
+            "Casio"
+        ],
+        "quantity": 1000
+    },
+    {
+        "id": 5,
+        "name": "airpods",
+        "brand": [
+            "Apple",
+            "Realme",
+            "Ptron",
+            "OnePlus"
+        ],
+        "quantity": 3000
+    },
+    {
+        "id": 6,
+        "name": "speaker",
+        "brand": [
+            "Boat",
+            "JBL",
+            "Sony"
+        ],
+        "quantity": 1200
+    }
+]

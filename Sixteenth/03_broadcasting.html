@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Socket.IO 3</title>
+</head>
+
+<body>
+
+    <h1 id="msg1"></h1>
+    <h2 id="msg2"></h2>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io()
+
+        socket.on('newClientConnect', (data) => welcomeDisplayer(data.desc))
+
+        socket.on('clientSize', (data) => clientDisplayer(data.desc))
+
+        function welcomeDisplayer(data) {
+            document.getElementById('msg1').innerHTML = data
+        }
+
+        function clientDisplayer(data) {
+            document.getElementById('msg2').innerHTML = data
+        }
+    </script>
+
+</body>
+
+</html>

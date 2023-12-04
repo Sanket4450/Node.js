@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <h1 style="text-align: center; font-family: Verdana;">Welcome to Home Page</h1>
+
+    <h2 style="text-align: center; font-family: Verdana;">How are you? Mr. <%= user.fname%> <%= user.lname%></h2>
+        
+    <h3>
+        <% for (let x in user) { %>
+        <%= x + ' = ' + user[x] + ', ' %>
+        <% } %>
+    </h3>
+    
+</body>
+</html>

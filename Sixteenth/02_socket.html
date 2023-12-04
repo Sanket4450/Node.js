@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Socket.IO 2</title>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+    <h2>Message is arriving...</h2>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io()
+
+        // socket.on('message', (data) => document.write(data)) message is a default event
+        socket.on('MyServerEvent', (data) => document.write(data.desc)) // here, MyServerEvent is a cutom event made in server-side
+
+        socket.emit('MyClientEvent', 'My first custom client event')
+    </script>
+
+</body>
+
+</html>

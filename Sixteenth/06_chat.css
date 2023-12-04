@@ -1,0 +1,95 @@
+#username {
+    padding: 15px;
+    width: 80%;
+    font-family: Verdana;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 120%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#username:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+#username:focus {
+    outline: none;
+}
+
+#let-me-chat {
+    padding: 15px;
+    width: 13.5%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 120%;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    font-family: Verdana;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#let-me-chat:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+#message {
+    padding: 15px;
+    width: 80%;
+    font-family: Verdana;
+    font-size: 120%;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#message:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+#message:focus {
+    outline: none;
+    
+}
+
+#send {
+    padding: 15px;
+    width: 13.5%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 120%;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    font-family: Verdana;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#send:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+#message-container {
+    background-color: rgb(25, 25, 25);
+    color: gold;
+    font-family: Verdana;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 25px;
+}

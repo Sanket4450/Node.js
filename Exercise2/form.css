@@ -1,0 +1,45 @@
+.register {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.field {
+    width: 84%;
+    margin: 25px 7%;
+    background-color: rgb(225, 225, 225);
+    font-size: 115%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    padding-left: 8px;
+}
+
+.field:focus {
+    outline: none;
+    opacity: 0.70;
+}
+
+.submit {
+    width: 84%;
+    margin: 0 7.88%;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 115%;
+    border-radius: 8px;
+    padding: 10px 0;
+    background-color: rgb(5, 145, 211);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}

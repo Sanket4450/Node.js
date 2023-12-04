@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" type="text/css" href="./form.css">
+
+</head>
+<body>
+
+    <h1 style="text-align: center; font-family: Verdana;">Register</h1>
+
+    <hr style="border: 1px solid black; width: 99%;">
+
+    <div class="register">
+
+    <form action="form-submit" method="get">
+
+        <input style="margin-top: 30px;" class="field" type="text" name="firstName" id="fname"
+            placeholder="First Name" autocomplete="off" required><br>
+
+        <input class="field" type="text" name="lastName" id="lname"
+            placeholder="Last Name" autocomplete="off" required>
+
+        <input class="field" type="text" name="phoneNo" id="phone"
+            pattern="[0-9]{10}" placeholder="Phone" autocomplete="off" required>
+
+        <input class="field" type="email" name="email" id="email"
+            placeholder="E-mail" autocomplete="off">
+
+        <input class="field" type="password" name="password" id="password"
+            placeholder="Create Password" autocomplete="off" required>
+
+        <input style="margin-bottom: 40px;" class="field" type="password" name="rePassword" id="repassword"
+            placeholder="Confirm Password" autocomplete="off" required>
+
+        <input class="submit" type="submit" value="Submit">
+
+    </form>
+
+    </div>
+    
+</body>
+</html>
